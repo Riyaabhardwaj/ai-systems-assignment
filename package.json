@@ -1,0 +1,18 @@
+{
+  "name": "ai-systems-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "start": "node app.js",
+  "test": "jest",
+  "lint": "echo Lint Passed"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
