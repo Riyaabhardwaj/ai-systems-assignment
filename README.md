@@ -72,7 +72,23 @@ Rollback strategy:
 Rollback to the last successful deployment and verify application health before investigating the issue.
 
 ---
+## Pipeline
 
+```text
+User Query
+     │
+     ▼
+ Planner
+     │
+     ▼
+ Retriever
+     │
+     ▼
+ Formatter
+     │
+     ▼
+ Final Answer
+```
 ## Run Project
 
 npm install
@@ -80,3 +96,13 @@ npm install
 npm start
 
 npm test
+## Screenshots
+
+### Application Output
+
+![npm start](screenshots/npm-start.png)
+
+### Test Results
+
+![npm test](screenshots/npm-test.png)
+
